@@ -10,9 +10,9 @@ AIML ZG535 (Machine Learning on Edge) mini-project, BITS Pilani WILP. Edge AI pi
 | `hardware/` | B1 Constraint Triangle, B2 Roofline | P1 |
 | `data_pipeline/` | simulator, preprocessing, training_stats.npy, MQTT design | P2 |
 | `training/` | dataset generation, training, PTQ, pruning, `models/` | P3 (D1), P4 (F1) |
-| `inference/` | Dockerfile, inference_service.py, model.tflite | P3 |
+| `inference/` | inference_service.py (P3), Dockerfile and model.tflite (P5) | P3, P5 |
 | `monitoring/` | drift_monitor.py, reference_dist.json | P4 |
-| `deployment/` | logibridge_deploy.yml (Ansible) | P3 |
+| `deployment/` | logibridge_deploy.yml (Ansible), ota_strategy.md | P5 (Ansible), P1 (E3) |
 | `optimisation/` | benchmark.py, results/ | P4 |
 | `reports/` | phase reports, final report | P1 assembles |
 | `demo/` | `demo_video_link.txt` | P1 |
@@ -23,8 +23,11 @@ AIML ZG535 (Machine Learning on Edge) mini-project, BITS Pilani WILP. Edge AI pi
 |---|---|---|
 | P1 | Architecture, hardware, report lead | TODO |
 | P2 | Sensor pipeline and MQTT | TODO |
-| P3 | Model training, Docker, Ansible | TODO |
+| P3 | Model training and inference service | TODO |
+| P5 | Docker, OTA demo, Ansible | TODO |
 | P4 | Optimisation and drift monitoring | TODO |
+
+See [WORK_SPLIT.md](WORK_SPLIT.md) for the full task list and deadlines per person.
 
 ## Git workflow
 
